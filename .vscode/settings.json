@@ -1,0 +1,21 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["."],
+
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "/usr/local/opt/openjdk@25/libexec/openjdk.jdk/Contents/Home",
+      "default": true
+    }
+  ],
+  "java.project.referencedLibraries": ["tools/*.jar"],
+  "java.project.sourcePaths": ["leetcode/_common/java"],
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "build": true
+  }
+}
